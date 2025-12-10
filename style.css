@@ -17,12 +17,12 @@
       display: flex;
       flex-direction: row;
       align-items: center;
-      margin-top: ;
+      
 
   }
 
   .navbar a {
-      color: white;
+      color: #f6f4ceff;
       display: flex;
       align-items: right;
       padding: 10px;
@@ -56,11 +56,19 @@
     flex-direction:row-reverse;
     align-items: center;
     margin-left: 130px;
+    text-decoration: none;
+    gap: 30px;
 
   }
   .main-sochal img{
     width: 50px;
-margin-top: -18px;  }
+}
+.main-sochal a{
+    text-decoration: none;
+}
+.main-sochal li{
+    list-style: none;
+}
 
   
 
