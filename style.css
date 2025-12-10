@@ -70,7 +70,22 @@
     list-style: none;
 }
 
-  
+   @media screen and (max-width:600px) {
+     
+
+     .navbar{
+        height: 150px;
+     }
+     .nav {
+        display: none !important;
+            visibility: hidden !important;
+            opacity: 0 !important;
+
+     }
+     .main-sochal{
+        display: none;
+     }
+   }
 
   
 
