@@ -9,16 +9,19 @@
       background-color: brown;
       display: flex;
       height: 80px;
-      justify-content: flex-end
+      justify-content: space-between;
   }
 
   .nav {
-      margin-right: 20;
+      margin-right: 10px;
       display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: ;
 
   }
 
-  a {
+  .navbar a {
       color: white;
       display: flex;
       align-items: right;
@@ -31,19 +34,36 @@
 
   }
 
-  ul {
+  .navbar ul {
       display: flex;
       list-style: none;
 
   }
 
-  img {
+  .avatar-img {
       display: flex;
       height: 250px;
       margin: auto;
       margin-top: -115;
   }
 
-  li {
+  .navbar li {
       margin-right: 40px;
   }
+  .main-sochal{
+    display: flex;
+    gap: 10px;
+    flex-direction:row-reverse;
+    align-items: center;
+    margin-left: 130px;
+
+  }
+  .main-sochal img{
+    width: 50px;
+margin-top: -18px;  }
+
+  
+
+  
+
+  
