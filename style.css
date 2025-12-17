@@ -74,33 +74,103 @@
       list-style: none;
   }
 
-  .main-part{
-        text-align: center;
-        margin-top: -90px;
-        
+  .main-part {
+      text-align: center;
+      margin-top: -90px;
+
 
   }
-    .main-part h1{
-            font-size: 60px;
-            ;
-            color: brown;
-            font-weight: 900;
-    }
- .main-part h5 {
-     font-size: 30px;
-     color: #f6f4ceff;
-     font-weight: 900;
 
-    }
-    .shadow1{
-text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.50);    }
+  .main-part h1 {
+      font-size: 60px;
+      ;
+      color: brown;
+      font-weight: 900;
+  }
+
+  .main-part h5 {
+      font-size: 30px;
+      color: #f6f4ceff;
+      font-weight: 900;
+
+  }
+
+  .shadow1 {
+      text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.50);
+  }
 
   .first-img {
       display: flex;
       flex-direction: row;
       margin-right: 1100px;
       width: 350px;
-;
+      ;
+  }
+
+  .title {
+
+      text-align: center;
+      font-size: 40px;
+      color: rgb(255, 254, 233);
+      font-weight: 900;
+      margin-top: 60px;
+  }
+
+  .prograf {
+      text-align: center;
+      font-size: 30px;
+      color: rgb(255, 254, 233);
+      font-weight: 800;
+      margin-top: -20px;
+      margin-left: 300px;
+      margin-right: 300px;
+  }
+
+  .prograf1 {
+      text-align: right;
+      font-size: 30px;
+      color: rgb(255, 254, 233);
+      font-weight: 800;
+      margin-top: -20px;
+      margin-left: 300px;
+      margin-right: 300px;
+      margin-right: 600px;
+  }
+
+  .btn-now {
+      display: inline-flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      margin-bottom: 40px;
+      margin-right: 92vh;
+      text-decoration: none;
+      height: 45px;
+      width: 200px;
+      border-radius: 10px;
+      background-color: brown;
+      color: #f6f4ceff;
+      font-size: 25px;
+      font-weight: 800;
+      border: none;
+      cursor: pointer;
+      transition: 0.5s;
+
+  }
+
+  .btn-now:hover {
+      background-color: #f6f4ceff;
+      color: brown;
+      border: 2px solid brown;
+  }
+
+  .title1 {
+      text-align: center;
+      font-size: 40px;
+      color: rgb(255, 254, 233);
+      font-weight: 900;
+      margin-top: -10px;
+
   }
 
   @media screen and (max-width:600px) {
